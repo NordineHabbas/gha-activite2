@@ -1,0 +1,19 @@
+name: lang
+on: 
+  push:
+    branches:
+      - "lang"
+      
+jobs:
+  french-job:
+    if: vars.LANg == 'FR'
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "L'utilisateur ${{github.actor}} parle français"
+  other-job:
+    if: vars.LANg != 'FR'
+    runs-on: ubuntu-latest
+    steps:
+      - name: print
+        run: echo "L'utilisateur ${{github.actor}} parle français"
