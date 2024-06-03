@@ -1,4 +1,3 @@
-# activite 2 workflow
 name: hello-world
 on: push
 jobs:
