@@ -1,4 +1,4 @@
-ck# activite 2 workflow
+# activite 2 workflow
 name: lang
 on: 
   push:
