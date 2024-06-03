@@ -1,4 +1,4 @@
-# activite 2 workflow
+ck# activite 2 workflow
 name: lang
 on: 
   push:
@@ -17,4 +17,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: print
-        run: echo "L'utilisateur ${{github.actor}} parle français"
+        run: echo "L'utilisateur ${{github.actor}} speaks english"
